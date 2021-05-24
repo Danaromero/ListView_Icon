@@ -69,7 +69,7 @@ class DanaApp extends StatelessWidget {
               padding: const EdgeInsets.symmetric(vertical: 10.0),
             ),
             ListTile(
-              leading: Icon(Icons.pan_tool_outlined,  color: Colors.orange[100]),
+              leading: Icon(Icons.pan_tool_outlined,  color: Colors.orange[200]),
               title: Text(
                 'Manos',
                 textScaleFactor: 1.5,
