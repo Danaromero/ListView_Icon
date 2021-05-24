@@ -123,7 +123,8 @@ class DanaApp extends StatelessWidget {
                 textScaleFactor: 1.5,
               ),
               trailing: Icon(Icons.done, color: Colors.grey),
-              subtitle: Text('Nuestros empleados los ayudaran con lo que necesite'),
+              subtitle: Text('Nuestros empleados los ayudaran con lo que necesite', style: TextStyle(
+          color: Colors.black ), ),
               selected: true,
             ), //Fin ListTile niño
              new Padding(
