@@ -50,13 +50,13 @@ class DanaApp extends StatelessWidget {
               padding: const EdgeInsets.symmetric(vertical: 10.0),
             ),
             ListTile(
-              leading: Icon(Icons.add,  color: Colors.indigo),
+              leading: Icon(Icons.masks,  color: Colors.indigo),
               title: Text(
-                'GFG title',
+                'Cubrebocas',
                 textScaleFactor: 1.5,
               ),
               trailing: Icon(Icons.done, color: Colors.indigo),
-              subtitle: Text('This is subtitle'),
+              subtitle: Text('Recuerda en todo moento usar tu mascarilla'),
               selected: true,
             ), //Fin ListTile niño
             new Padding(
