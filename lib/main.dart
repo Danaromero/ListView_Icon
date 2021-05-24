@@ -26,7 +26,7 @@ class DanaApp extends StatelessWidget {
                 'GFG title',
                 textScaleFactor: 1.5,
               ),
-              trailing: Icon(Icons.done),
+              trailing: Icon(Icons.add, color: Colors.indigo),
               subtitle: Text('This is subtitle'),
               selected: true,
             ), //Fin ListTile niño
@@ -34,12 +34,12 @@ class DanaApp extends StatelessWidget {
               padding: const EdgeInsets.symmetric(vertical: 10.0),
             ),
             ListTile(
-              leading: Icon(Icons.add),
+              leading: Icon(Icons.add,  color: Colors.indigo),
               title: Text(
                 'GFG title',
                 textScaleFactor: 1.5,
               ),
-              trailing: Icon(Icons.done),
+              trailing: Icon(Icons.add, color: Colors.indigo),
               subtitle: Text('This is subtitle'),
               selected: true,
             ), //Fin ListTile niño
@@ -47,12 +47,12 @@ class DanaApp extends StatelessWidget {
               padding: const EdgeInsets.symmetric(vertical: 10.0),
             ),
             ListTile(
-              leading: Icon(Icons.add),
+              leading: Icon(Icons.add,  color: Colors.indigo),
               title: Text(
                 'GFG title',
                 textScaleFactor: 1.5,
               ),
-              trailing: Icon(Icons.done),
+              trailing: Icon(Icons.add, color: Colors.indigo),
               subtitle: Text('This is subtitle'),
               selected: true,
             ), //Fin ListTile niño
@@ -60,12 +60,12 @@ class DanaApp extends StatelessWidget {
               padding: const EdgeInsets.symmetric(vertical: 10.0),
             ),
             ListTile(
-              leading: Icon(Icons.add),
+              leading: Icon(Icons.add,  color: Colors.indigo),
               title: Text(
                 'GFG title',
                 textScaleFactor: 1.5,
               ),
-              trailing: Icon(Icons.done),
+              trailing: Icon(Icons.add, color: Colors.indigo),
               subtitle: Text('This is subtitle'),
               selected: true,
             ), //Fin ListTile niño
@@ -73,12 +73,12 @@ class DanaApp extends StatelessWidget {
               padding: const EdgeInsets.symmetric(vertical: 10.0),
             ),
             ListTile(
-              leading: Icon(Icons.add),
+              leading: Icon(Icons.add,  color: Colors.indigo),
               title: Text(
                 'GFG title',
                 textScaleFactor: 1.5,
               ),
-              trailing: Icon(Icons.done),
+              trailing: Icon(Icons.add, color: Colors.indigo),
               subtitle: Text('This is subtitle'),
               selected: true,
             ), //Fin ListTile niño
@@ -86,12 +86,12 @@ class DanaApp extends StatelessWidget {
               padding: const EdgeInsets.symmetric(vertical: 10.0),
             ),
             ListTile(
-              leading: Icon(Icons.add),
+              leading: Icon(Icons.add,  color: Colors.indigo),
               title: Text(
                 'GFG title',
                 textScaleFactor: 1.5,
               ),
-              trailing: Icon(Icons.done),
+              trailing: Icon(Icons.add, color: Colors.indigo),
               subtitle: Text('This is subtitle'),
               selected: true,
             ), //Fin ListTile niño
@@ -99,12 +99,12 @@ class DanaApp extends StatelessWidget {
               padding: const EdgeInsets.symmetric(vertical: 10.0),
             ),
             ListTile(
-              leading: Icon(Icons.add),
+              leading: Icon(Icons.add,  color: Colors.indigo),
               title: Text(
                 'GFG title',
                 textScaleFactor: 1.5,
               ),
-              trailing: Icon(Icons.done),
+              trailing: Icon(Icons.add, color: Colors.indigo),
               subtitle: Text('This is subtitle'),
               selected: true,
             ), //Fin ListTile niño
@@ -112,12 +112,12 @@ class DanaApp extends StatelessWidget {
               padding: const EdgeInsets.symmetric(vertical: 10.0),
             ),
             ListTile(
-              leading: Icon(Icons.add),
+              leading: Icon(Icons.add,  color: Colors.indigo),
               title: Text(
                 'GFG title',
                 textScaleFactor: 1.5,
               ),
-              trailing: Icon(Icons.done),
+              trailing: Icon(Icons.add, color: Colors.indigo),
               subtitle: Text('This is subtitle'),
               selected: true,
             ), //Fin ListTile niño
@@ -125,12 +125,12 @@ class DanaApp extends StatelessWidget {
               padding: const EdgeInsets.symmetric(vertical: 10.0),
             ),
             ListTile(
-              leading: Icon(Icons.add),
+              leading: Icon(Icons.add,  color: Colors.indigo),
               title: Text(
                 'GFG title',
                 textScaleFactor: 1.5,
               ),
-              trailing: Icon(Icons.done),
+              trailing: Icon(Icons.add, color: Colors.indigo),
               subtitle: Text('This is subtitle'),
               selected: true,
             ), //Fin ListTile niño
@@ -138,12 +138,12 @@ class DanaApp extends StatelessWidget {
               padding: const EdgeInsets.symmetric(vertical: 10.0),
             ),
             ListTile(
-              leading: Icon(Icons.add),
+              leading: Icon(Icons.add,  color: Colors.indigo),
               title: Text(
                 'GFG title',
                 textScaleFactor: 1.5,
               ),
-              trailing: Icon(Icons.done),
+              trailing: Icon(Icons.add, color: Colors.indigo),
               subtitle: Text('This is subtitle'),
               selected: true,
             ), //Fin ListTile niño
@@ -151,12 +151,12 @@ class DanaApp extends StatelessWidget {
               padding: const EdgeInsets.symmetric(vertical: 10.0),
             ),
             ListTile(
-              leading: Icon(Icons.add),
+              leading: Icon(Icons.add,  color: Colors.indigo),
               title: Text(
                 'GFG title',
                 textScaleFactor: 1.5,
               ),
-              trailing: Icon(Icons.done),
+              trailing: Icon(Icons.add, color: Colors.indigo),
               subtitle: Text('This is subtitle'),
               selected: true,
             ), //Fin ListTile niño
@@ -164,12 +164,12 @@ class DanaApp extends StatelessWidget {
               padding: const EdgeInsets.symmetric(vertical: 10.0),
             ),
             ListTile(
-              leading: Icon(Icons.add),
+              leading: Icon(Icons.add,  color: Colors.indigo),
               title: Text(
                 'GFG title',
                 textScaleFactor: 1.5,
               ),
-              trailing: Icon(Icons.done),
+              trailing: Icon(Icons.add, color: Colors.indigo),
               subtitle: Text('This is subtitle'),
               selected: true,
             ), //Fin ListTile niño
