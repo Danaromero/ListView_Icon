@@ -14,14 +14,14 @@ class DanaApp extends StatelessWidget {
           centerTitle: true,
           title: Text(title, style: TextStyle(
           color: Colors.white ),),
-          backgroundColor: Colors.blue[600],
+          backgroundColor: Colors.red[100],
         ),
         body: Center(
         child: ListView(
           padding: EdgeInsets.symmetric(vertical: 15.0),
           children: <Widget>[
             ListTile(
-              leading: Icon(Icons.grading_outlined,  color: Colors.indigo),
+              leading: Icon(Icons.grading_outlined,  color: Colors.black),
               title: Text(
                 'Documentos',
                 textScaleFactor: 1.5,
