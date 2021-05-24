@@ -85,7 +85,7 @@ class DanaApp extends StatelessWidget {
               padding: const EdgeInsets.symmetric(vertical: 10.0),
             ),
             ListTile(
-              leading: Icon(Icons.flight_outlined,  color: Colors.orange),
+              leading: Icon(Icons.flight_outlined,  color: Colors.cyan),
               title: Text(
                 'Modo Avion',
                 textScaleFactor: 1.5,
