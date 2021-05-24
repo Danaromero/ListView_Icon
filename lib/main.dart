@@ -42,7 +42,8 @@ class DanaApp extends StatelessWidget {
           color: Colors.black ),
               ),
               trailing: Icon(Icons.done, color: Colors.indigo),
-              subtitle: Text('Prohibido el uso de celular'),
+              subtitle: Text('Prohibido el uso de celular', style: TextStyle(
+          color: Colors.grey ),),
               selected: true,
             ), //Fin ListTile niño
             new Padding(
