@@ -144,26 +144,26 @@ class DanaApp extends StatelessWidget {
               padding: const EdgeInsets.symmetric(vertical: 5.0),
             ),
             ListTile(
-              leading: Icon(Icons.airline_seat_legroom_extra_outlined,  color: Colors.grey),
+              leading: Icon(Icons.airline_seat_legroom_extra_outlined,  color: Colors.teal),
               title: Text(
-                'GFG title',
+                'Espacio',
                 textScaleFactor: 1.5,
               ),
               trailing: Icon(Icons.done, color: Colors.grey),
-              subtitle: Text('This is subtitle'),
+              subtitle: Text('Respetar l espacio en cada asiento'),
               selected: true,
             ), //Fin ListTile niño
              new Padding(
               padding: const EdgeInsets.symmetric(vertical: 5.0),
             ),
             ListTile(
-              leading: Icon(Icons.add,  color: Colors.grey),
+              leading: Icon(Icons.wc_outlined,  color: Colors.grey),
               title: Text(
-                'GFG title',
+                'Baños',
                 textScaleFactor: 1.5,
               ),
               trailing: Icon(Icons.done, color: Colors.grey),
-              subtitle: Text('This is subtitle'),
+              subtitle: Text('Cuando el avion este este estable ya es permitido ingresar a los baños'),
               selected: true,
             ), //Fin ListTile niño
              new Padding(
