@@ -131,7 +131,7 @@ class DanaApp extends StatelessWidget {
               padding: const EdgeInsets.symmetric(vertical: 5.0),
             ),
             ListTile(
-              leading: Icon(Icons.luggage,  color: Colors.grey),
+              leading: Icon(Icons.luggage_outlined,  color: Colors.grey),
               title: Text(
                 'Equipaje',
                 textScaleFactor: 1.5,
