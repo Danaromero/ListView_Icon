@@ -53,7 +53,7 @@ class DanaApp extends StatelessWidget {
               padding: const EdgeInsets.symmetric(vertical: 10.0),
             ),
             ListTile(
-              leading: Icon(Icons.masks,  color: Colors.blue),
+              leading: Icon(Icons.masks,  color: Colors.indigo),
               title: Text(
                 'Cubre Bocas',
                 textScaleFactor: 1.5,
