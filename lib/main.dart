@@ -14,7 +14,7 @@ class DanaApp extends StatelessWidget {
           centerTitle: true,
           title: Text(title, style: TextStyle(
           color: Colors.black ),),
-          backgroundColor: Colors.red[100],
+          backgroundColor: Colors.red[50],
         ),
         body: Center(
         child: ListView(
@@ -34,7 +34,7 @@ class DanaApp extends StatelessWidget {
               selected: true,
             ), //Fin ListTile niño
             new Padding(
-              padding: const EdgeInsets.symmetric(vertical: 10.0),
+              padding: const EdgeInsets.symmetric(vertical: 5.0),
             ),
             ListTile(
               leading: Icon(Icons.mobile_off,  color: Colors.amber),
@@ -50,7 +50,7 @@ class DanaApp extends StatelessWidget {
               selected: true,
             ), //Fin ListTile niño
             new Padding(
-              padding: const EdgeInsets.symmetric(vertical: 10.0),
+              padding: const EdgeInsets.symmetric(vertical: 5.0),
             ),
             ListTile(
               leading: Icon(Icons.masks,  color: Colors.indigo),
@@ -66,7 +66,7 @@ class DanaApp extends StatelessWidget {
               selected: true,
             ), //Fin ListTile niño
             new Padding(
-              padding: const EdgeInsets.symmetric(vertical: 10.0),
+              padding: const EdgeInsets.symmetric(vertical: 5.0),
             ),
             ListTile(
               leading: Icon(Icons.pan_tool_outlined,  color: Colors.green),
@@ -82,7 +82,7 @@ class DanaApp extends StatelessWidget {
               selected: true,
             ), //Fin ListTile niño
             new Padding(
-              padding: const EdgeInsets.symmetric(vertical: 10.0),
+              padding: const EdgeInsets.symmetric(vertical: 5.0),
             ),
             ListTile(
               leading: Icon(Icons.flight_outlined,  color: Colors.cyan),
@@ -98,7 +98,7 @@ class DanaApp extends StatelessWidget {
               selected: true,
             ), //Fin ListTile niño
             new Padding(
-              padding: const EdgeInsets.symmetric(vertical: 10.0),
+              padding: const EdgeInsets.symmetric(vertical: 5.0),
             ),
             ListTile(
               leading: Icon(Icons.pets_outlined,  color: Colors.brown),
@@ -114,7 +114,7 @@ class DanaApp extends StatelessWidget {
               selected: true,
             ), //Fin ListTile niño
               new Padding(
-              padding: const EdgeInsets.symmetric(vertical: 10.0),
+              padding: const EdgeInsets.symmetric(vertical: 5.0),
             ),
             ListTile(
               leading: Icon(Icons.help_outlined,  color: Colors.red),
@@ -127,7 +127,7 @@ class DanaApp extends StatelessWidget {
               selected: true,
             ), //Fin ListTile niño
              new Padding(
-              padding: const EdgeInsets.symmetric(vertical: 10.0),
+              padding: const EdgeInsets.symmetric(vertical: 5.0),
             ),
             ListTile(
               leading: Icon(Icons.add,  color: Colors.grey),
@@ -140,7 +140,7 @@ class DanaApp extends StatelessWidget {
               selected: true,
             ), //Fin ListTile niño
              new Padding(
-              padding: const EdgeInsets.symmetric(vertical: 10.0),
+              padding: const EdgeInsets.symmetric(vertical: 5.0),
             ),
             ListTile(
               leading: Icon(Icons.add,  color: Colors.grey),
@@ -153,7 +153,7 @@ class DanaApp extends StatelessWidget {
               selected: true,
             ), //Fin ListTile niño
              new Padding(
-              padding: const EdgeInsets.symmetric(vertical: 10.0),
+              padding: const EdgeInsets.symmetric(vertical: 5.0),
             ),
             ListTile(
               leading: Icon(Icons.add,  color: Colors.grey),
@@ -166,7 +166,7 @@ class DanaApp extends StatelessWidget {
               selected: true,
             ), //Fin ListTile niño
              new Padding(
-              padding: const EdgeInsets.symmetric(vertical: 10.0),
+              padding: const EdgeInsets.symmetric(vertical: 5.0),
             ),
             ListTile(
               leading: Icon(Icons.add,  color: Colors.grey),
