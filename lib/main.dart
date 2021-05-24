@@ -15,7 +15,8 @@ class DanaApp extends StatelessWidget {
           title: Text(title),
           backgroundColor: Colors.green[400],
         ),
-        body: ListView(
+        body: Center(
+        child: ListView(
           padding: EdgeInsets.symmetric(vertical: 15.0),
           children: <Widget>[
             ListTile(
@@ -174,6 +175,7 @@ class DanaApp extends StatelessWidget {
             
           ], //Fin Niños Widget[]
         ), //Fin ListView
+        ),
       ), //Fin Scaffold
     ); //Fin MaterialApp
   } //Fin Widget
