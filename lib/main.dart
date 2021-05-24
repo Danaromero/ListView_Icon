@@ -21,7 +21,7 @@ class DanaApp extends StatelessWidget {
           padding: EdgeInsets.symmetric(vertical: 15.0),
           children: <Widget>[
             ListTile(
-              leading: Icon(Icons.flight_outlined,  color: Colors.indigo),
+              leading: Icon(Icons.grading_outlined,  color: Colors.indigo),
               title: Text(
                 'Documentos',
                 textScaleFactor: 1.5,
@@ -69,7 +69,7 @@ class DanaApp extends StatelessWidget {
               padding: const EdgeInsets.symmetric(vertical: 10.0),
             ),
             ListTile(
-              leading: Icon(Icons.add,  color: Colors.indigo),
+              leading: Icon(Icons.flight_outlined,  color: Colors.indigo),
               title: Text(
                 'GFG title',
                 textScaleFactor: 1.5,
