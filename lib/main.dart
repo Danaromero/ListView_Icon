@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:gradient_app_bar/gradient_app_bar.dart';
 
 void main() => runApp(DanaApp());
 
@@ -12,17 +11,9 @@ class DanaApp extends StatelessWidget {
       title: title,
       home: Scaffold(
         appBar: AppBar(
-          title: Text('Flutter'),
-          flexibleSpace: Container(
-            decoration: BoxDecoration(
-              gradient: LinearGradient(
-                colors: [
-                  Colors.purple,
-                  Colors.red
-                ],
-              ),
-            ),
-          ),
+          centerTitle: true,
+          title: Text(title),
+          backgroundColor: Colors.green[400],
         ),
         body: ListView(
           padding: EdgeInsets.symmetric(vertical: 15.0),
