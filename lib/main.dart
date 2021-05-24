@@ -117,13 +117,13 @@ class DanaApp extends StatelessWidget {
               padding: const EdgeInsets.symmetric(vertical: 10.0),
             ),
             ListTile(
-              leading: Icon(Icons.add,  color: Colors.indigo),
+              leading: Icon(Icons.help_outlined,  color: Colors.indigo),
               title: Text(
-                'GFG title',
+                'Ayuda',
                 textScaleFactor: 1.5,
               ),
               trailing: Icon(Icons.done, color: Colors.indigo),
-              subtitle: Text('This is subtitle'),
+              subtitle: Text('Nuestros empleados los ayudaran con lo que necesite'),
               selected: true,
             ), //Fin ListTile niño
              new Padding(
