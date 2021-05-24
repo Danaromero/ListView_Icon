@@ -21,13 +21,16 @@ class DanaApp extends StatelessWidget {
           padding: EdgeInsets.symmetric(vertical: 15.0),
           children: <Widget>[
             ListTile(
-              leading: Icon(Icons.add,  color: Colors.indigo),
+              leading: Icon(Icons.mobile_off,  color: Colors.indigo),
               title: Text(
-                'GFG title',
+                'Celular',
                 textScaleFactor: 1.5,
+                style: TextStyle(
+          color: Colors.blue ),
               ),
               trailing: Icon(Icons.done, color: Colors.indigo),
-              subtitle: Text('This is subtitle'),
+              subtitle: Text('Prohibido el uso de celular', style: TextStyle(
+          color: Colors.black ),),
               selected: true,
             ), //Fin ListTile niño
             new Padding(
