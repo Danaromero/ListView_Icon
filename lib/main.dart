@@ -101,7 +101,7 @@ class DanaApp extends StatelessWidget {
               padding: const EdgeInsets.symmetric(vertical: 10.0),
             ),
             ListTile(
-              leading: Icon(Icons.pets_outlined,  color: Colors.indigo),
+              leading: Icon(Icons.pets_outlined,  color: Colors.brown),
               title: Text(
                 'Mascotas',
                 textScaleFactor: 1.5,
