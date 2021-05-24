@@ -13,7 +13,7 @@ class DanaApp extends StatelessWidget {
         appBar: AppBar(
           centerTitle: true,
           title: Text(title, style: TextStyle(
-          color: Colors.white ),),
+          color: Colors.black ),),
           backgroundColor: Colors.red[100],
         ),
         body: Center(
