@@ -117,7 +117,7 @@ class DanaApp extends StatelessWidget {
               padding: const EdgeInsets.symmetric(vertical: 10.0),
             ),
             ListTile(
-              leading: Icon(Icons.help_outlined,  color: Colors.indigo),
+              leading: Icon(Icons.help_outlined,  color: Colors.red),
               title: Text(
                 'Ayuda',
                 textScaleFactor: 1.5,
