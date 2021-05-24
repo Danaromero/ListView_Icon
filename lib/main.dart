@@ -37,7 +37,7 @@ class DanaApp extends StatelessWidget {
               padding: const EdgeInsets.symmetric(vertical: 10.0),
             ),
             ListTile(
-              leading: Icon(Icons.mobile_off,  color: Colors.indigo),
+              leading: Icon(Icons.mobile_off,  color: Colors.green),
               title: Text(
                 'Celular',
                 textScaleFactor: 1.5,
