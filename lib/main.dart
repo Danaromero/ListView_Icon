@@ -131,13 +131,13 @@ class DanaApp extends StatelessWidget {
               padding: const EdgeInsets.symmetric(vertical: 5.0),
             ),
             ListTile(
-              leading: Icon(Icons.luggage_outlined,  color: Colors.grey),
+              leading: Icon(Icons.fastfood_outlined,  color: Colors.grey),
               title: Text(
-                'Equipaje',
+                'Alimentos',
                 textScaleFactor: 1.5,
               ),
               trailing: Icon(Icons.done, color: Colors.grey),
-              subtitle: Text('Estar al pendiente de lo que lleves'),
+              subtitle: Text('Los alimentos estan prohibidos'),
               selected: true,
             ), //Fin ListTile niño
              new Padding(
