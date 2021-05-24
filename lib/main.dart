@@ -14,7 +14,7 @@ class DanaApp extends StatelessWidget {
           centerTitle: true,
           title: Text(title, style: TextStyle(
           color: Colors.black ),),
-          backgroundColor: Colors.pinkAccent[50],
+          backgroundColor: Colors.pink[50],
         ),
         body: Center(
         child: ListView(
