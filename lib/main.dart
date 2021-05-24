@@ -53,7 +53,7 @@ class DanaApp extends StatelessWidget {
               padding: const EdgeInsets.symmetric(vertical: 10.0),
             ),
             ListTile(
-              leading: Icon(Icons.masks,  color: Colors.indigo),
+              leading: Icon(Icons.masks,  color: Colors.blue),
               title: Text(
                 'Cubre Bocas',
                 textScaleFactor: 1.5,
@@ -69,7 +69,7 @@ class DanaApp extends StatelessWidget {
               padding: const EdgeInsets.symmetric(vertical: 10.0),
             ),
             ListTile(
-              leading: Icon(Icons.pan_tool_outlined,  color: Colors.indigo),
+              leading: Icon(Icons.pan_tool_outlined,  color: Colors.orange[100]),
               title: Text(
                 'Manos',
                 textScaleFactor: 1.5,
