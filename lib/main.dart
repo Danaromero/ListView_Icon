@@ -21,7 +21,7 @@ class DanaApp extends StatelessWidget {
           padding: EdgeInsets.symmetric(vertical: 15.0),
           children: <Widget>[
             ListTile(
-              leading: Icon(Icons.add),
+              leading: Icon(Icons.add,  color: Colors.indigo),
               title: Text(
                 'GFG title',
                 textScaleFactor: 1.5,
