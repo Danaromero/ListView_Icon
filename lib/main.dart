@@ -38,6 +38,8 @@ class DanaApp extends StatelessWidget {
               title: Text(
                 'Celular',
                 textScaleFactor: 1.5,
+                style: TextStyle(
+          color: Colors.black ),
               ),
               trailing: Icon(Icons.done, color: Colors.indigo),
               subtitle: Text('Prohibido el uso de celular'),
