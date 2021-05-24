@@ -37,7 +37,7 @@ class DanaApp extends StatelessWidget {
               padding: const EdgeInsets.symmetric(vertical: 10.0),
             ),
             ListTile(
-              leading: Icon(Icons.mobile_off,  color: Colors.green),
+              leading: Icon(Icons.mobile_off,  color: Colors.red),
               title: Text(
                 'Celular',
                 textScaleFactor: 1.5,
@@ -69,7 +69,7 @@ class DanaApp extends StatelessWidget {
               padding: const EdgeInsets.symmetric(vertical: 10.0),
             ),
             ListTile(
-              leading: Icon(Icons.pan_tool_outlined,  color: Colors.orange[500]),
+              leading: Icon(Icons.pan_tool_outlined,  color: Colors.green),
               title: Text(
                 'Manos',
                 textScaleFactor: 1.5,
@@ -85,7 +85,7 @@ class DanaApp extends StatelessWidget {
               padding: const EdgeInsets.symmetric(vertical: 10.0),
             ),
             ListTile(
-              leading: Icon(Icons.flight_outlined,  color: Colors.indigo),
+              leading: Icon(Icons.flight_outlined,  color: Colors.orange),
               title: Text(
                 'Modo Avion',
                 textScaleFactor: 1.5,
