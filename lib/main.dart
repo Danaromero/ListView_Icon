@@ -21,15 +21,15 @@ class DanaApp extends StatelessWidget {
           padding: EdgeInsets.symmetric(vertical: 15.0),
           children: <Widget>[
             ListTile(
-              leading: Icon(Icons.mobile_off,  color: Colors.indigo),
+              leading: Icon(Icons.feed,  color: Colors.indigo),
               title: Text(
-                'Celular',
+                'Documentos',
                 textScaleFactor: 1.5,
                 style: TextStyle(
           color: Colors.blue ),
               ),
               trailing: Icon(Icons.done, color: Colors.indigo),
-              subtitle: Text('Prohibido el uso de celular', style: TextStyle(
+              subtitle: Text('Rebice que sus Datos sean correctos', style: TextStyle(
           color: Colors.black ),),
               selected: true,
             ), //Fin ListTile niño
@@ -55,11 +55,14 @@ class DanaApp extends StatelessWidget {
             ListTile(
               leading: Icon(Icons.masks,  color: Colors.indigo),
               title: Text(
-                'Cubrebocas',
+                'Cubre Bocas',
                 textScaleFactor: 1.5,
+                style: TextStyle(
+          color: Colors.blue ),
               ),
               trailing: Icon(Icons.done, color: Colors.indigo),
-              subtitle: Text('Recuerda en todo moento usar tu mascarilla'),
+              subtitle: Text('Utilizar en todo momento mascarilla', style: TextStyle(
+          color: Colors.black ),),
               selected: true,
             ), //Fin ListTile niño
             new Padding(
