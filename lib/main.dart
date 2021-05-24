@@ -144,7 +144,7 @@ class DanaApp extends StatelessWidget {
               padding: const EdgeInsets.symmetric(vertical: 5.0),
             ),
             ListTile(
-              leading: Icon(Icons.add,  color: Colors.grey),
+              leading: Icon(Icons.airline_seat_legroom_extra_outlined,  color: Colors.grey),
               title: Text(
                 'GFG title',
                 textScaleFactor: 1.5,
