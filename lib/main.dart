@@ -11,9 +11,18 @@ class DanaApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: title,
       home: Scaffold(
-        appBar: GradientAppBar(
+        appBar: AppBar(
           title: Text('Flutter'),
-         gradient: LinearGradient(colors: [Colors.blue, Colors.purple, Colors.red])
+          flexibleSpace: Container(
+            decoration: BoxDecoration(
+              gradient: LinearGradient(
+                colors: [
+                  Colors.purple,
+                  Colors.red
+                ],
+              ),
+            ),
+          ),
         ),
         body: ListView(
           padding: EdgeInsets.symmetric(vertical: 15.0),
