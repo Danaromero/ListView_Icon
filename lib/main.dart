@@ -28,7 +28,7 @@ class DanaApp extends StatelessWidget {
                 style: TextStyle(
           color: Colors.blue ),
               ),
-              trailing: Icon(Icons.done, color: Colors.indigo),
+              trailing: Icon(Icons.done, color: Colors.grey),
               subtitle: Text('Rebice que sus datos sean correctos', style: TextStyle(
           color: Colors.black ),),
               selected: true,
@@ -44,7 +44,7 @@ class DanaApp extends StatelessWidget {
                 style: TextStyle(
           color: Colors.blue ),
               ),
-              trailing: Icon(Icons.done, color: Colors.indigo),
+              trailing: Icon(Icons.done, color: Colors.grey),
               subtitle: Text('Prohibido el uso de celular', style: TextStyle(
           color: Colors.black ),),
               selected: true,
@@ -53,14 +53,14 @@ class DanaApp extends StatelessWidget {
               padding: const EdgeInsets.symmetric(vertical: 10.0),
             ),
             ListTile(
-              leading: Icon(Icons.masks,  color: Colors.indigo),
+              leading: Icon(Icons.masks,  color: Colors.grey),
               title: Text(
                 'Cubre Bocas',
                 textScaleFactor: 1.5,
                 style: TextStyle(
           color: Colors.blue ),
               ),
-              trailing: Icon(Icons.done, color: Colors.indigo),
+              trailing: Icon(Icons.done, color: Colors.grey),
               subtitle: Text('Utilizar en todo momento mascarilla', style: TextStyle(
           color: Colors.black ),),
               selected: true,
@@ -76,7 +76,7 @@ class DanaApp extends StatelessWidget {
                 style: TextStyle(
           color: Colors.blue ),
               ),
-              trailing: Icon(Icons.done, color: Colors.indigo),
+              trailing: Icon(Icons.done, color: Colors.grey),
               subtitle: Text('Desinfectar constantemente nuestras manos', style: TextStyle(
           color: Colors.black ),),
               selected: true,
@@ -92,7 +92,7 @@ class DanaApp extends StatelessWidget {
                 style: TextStyle(
           color: Colors.blue ),
               ),
-              trailing: Icon(Icons.done, color: Colors.indigo),
+              trailing: Icon(Icons.done, color: Colors.grey),
               subtitle: Text('Antes de despegar colocar en modo avion todos sus dispostitovs', style: TextStyle(
           color: Colors.black ),),
               selected: true,
@@ -108,7 +108,7 @@ class DanaApp extends StatelessWidget {
                 style: TextStyle(
           color: Colors.blue ),
               ),
-              trailing: Icon(Icons.done, color: Colors.indigo),
+              trailing: Icon(Icons.done, color: Colors.grey),
               subtitle: Text('Mascotas no permitidas en el area de pasajeros', style: TextStyle(
           color: Colors.black ),),
               selected: true,
@@ -122,7 +122,7 @@ class DanaApp extends StatelessWidget {
                 'Ayuda',
                 textScaleFactor: 1.5,
               ),
-              trailing: Icon(Icons.done, color: Colors.indigo),
+              trailing: Icon(Icons.done, color: Colors.grey),
               subtitle: Text('Nuestros empleados los ayudaran con lo que necesite'),
               selected: true,
             ), //Fin ListTile niño
@@ -130,12 +130,12 @@ class DanaApp extends StatelessWidget {
               padding: const EdgeInsets.symmetric(vertical: 10.0),
             ),
             ListTile(
-              leading: Icon(Icons.add,  color: Colors.indigo),
+              leading: Icon(Icons.add,  color: Colors.grey),
               title: Text(
                 'GFG title',
                 textScaleFactor: 1.5,
               ),
-              trailing: Icon(Icons.done, color: Colors.indigo),
+              trailing: Icon(Icons.done, color: Colors.grey),
               subtitle: Text('This is subtitle'),
               selected: true,
             ), //Fin ListTile niño
@@ -143,12 +143,12 @@ class DanaApp extends StatelessWidget {
               padding: const EdgeInsets.symmetric(vertical: 10.0),
             ),
             ListTile(
-              leading: Icon(Icons.add,  color: Colors.indigo),
+              leading: Icon(Icons.add,  color: Colors.grey),
               title: Text(
                 'GFG title',
                 textScaleFactor: 1.5,
               ),
-              trailing: Icon(Icons.done, color: Colors.indigo),
+              trailing: Icon(Icons.done, color: Colors.grey),
               subtitle: Text('This is subtitle'),
               selected: true,
             ), //Fin ListTile niño
@@ -156,12 +156,12 @@ class DanaApp extends StatelessWidget {
               padding: const EdgeInsets.symmetric(vertical: 10.0),
             ),
             ListTile(
-              leading: Icon(Icons.add,  color: Colors.indigo),
+              leading: Icon(Icons.add,  color: Colors.grey),
               title: Text(
                 'GFG title',
                 textScaleFactor: 1.5,
               ),
-              trailing: Icon(Icons.done, color: Colors.indigo),
+              trailing: Icon(Icons.done, color: Colors.grey),
               subtitle: Text('This is subtitle'),
               selected: true,
             ), //Fin ListTile niño
@@ -169,12 +169,12 @@ class DanaApp extends StatelessWidget {
               padding: const EdgeInsets.symmetric(vertical: 10.0),
             ),
             ListTile(
-              leading: Icon(Icons.add,  color: Colors.indigo),
+              leading: Icon(Icons.add,  color: Colors.grey),
               title: Text(
                 'GFG title',
                 textScaleFactor: 1.5,
               ),
-              trailing: Icon(Icons.done, color: Colors.indigo),
+              trailing: Icon(Icons.done, color: Colors.grey),
               subtitle: Text('This is subtitle'),
               selected: true,
             ), //Fin ListTile niño
