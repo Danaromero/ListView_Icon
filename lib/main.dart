@@ -167,7 +167,7 @@ class DanaApp extends StatelessWidget {
                 padding: const EdgeInsets.symmetric(vertical: 5.0),
               ),
               ListTile(
-                leading: Icon(Icons.wc_outlined, color: Colors.grey),
+                leading: Icon(Icons.wc_outlined, color: Colors.deepPurple),
                 title: Text(
                   'Baños',
                   textScaleFactor: 1.5,
@@ -180,7 +180,7 @@ class DanaApp extends StatelessWidget {
                 padding: const EdgeInsets.symmetric(vertical: 5.0),
               ),
               ListTile(
-                leading: Icon(Icons.carpenter_outlined, color: Colors.grey),
+                leading: Icon(Icons.carpenter_outlined, color: Colors.lightGreen),
                 title: Text(
                   'Cinturon',
                   textScaleFactor: 1.5,
