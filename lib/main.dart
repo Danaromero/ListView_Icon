@@ -170,13 +170,13 @@ class DanaApp extends StatelessWidget {
               padding: const EdgeInsets.symmetric(vertical: 5.0),
             ),
             ListTile(
-              leading: Icon(Icons.add,  color: Colors.grey),
+              leading: Icon(Icons.carpenter_outlined,  color: Colors.grey),
               title: Text(
-                'GFG title',
+                'Cinturon',
                 textScaleFactor: 1.5,
               ),
               trailing: Icon(Icons.done, color: Colors.grey),
-              subtitle: Text('This is subtitle'),
+              subtitle: Text('Colocarse el cinturon cuando se le sea indicado'),
               selected: true,
             ), //Fin ListTile niño
             
