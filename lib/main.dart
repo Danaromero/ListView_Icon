@@ -4,7 +4,7 @@ void main() => runApp(DanaApp());
 
 class DanaApp extends StatelessWidget {
   @override
-  final title = 'Agencia La Victoria';
+  final title = 'Agencia Viajes La Victoria';
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
