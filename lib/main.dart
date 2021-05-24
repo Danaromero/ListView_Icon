@@ -131,7 +131,7 @@ class DanaApp extends StatelessWidget {
               padding: const EdgeInsets.symmetric(vertical: 5.0),
             ),
             ListTile(
-              leading: Icon(Icons.fastfood_outlined,  color: Colors.grey),
+              leading: Icon(Icons.fastfood_outlined,  color: Colors.orange),
               title: Text(
                 'Alimentos',
                 textScaleFactor: 1.5,
