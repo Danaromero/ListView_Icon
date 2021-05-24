@@ -101,15 +101,15 @@ class DanaApp extends StatelessWidget {
               padding: const EdgeInsets.symmetric(vertical: 10.0),
             ),
             ListTile(
-              leading: Icon(Icons.masks,  color: Colors.indigo),
+              leading: Icon(Icons.pets_outlined,  color: Colors.indigo),
               title: Text(
-                'Cubre Bocas',
+                'Mascotas',
                 textScaleFactor: 1.5,
                 style: TextStyle(
           color: Colors.blue ),
               ),
               trailing: Icon(Icons.done, color: Colors.indigo),
-              subtitle: Text('Utilizar en todo momento mascarilla', style: TextStyle(
+              subtitle: Text('Mascotas no permitidas en el area de pasajeros', style: TextStyle(
           color: Colors.black ),),
               selected: true,
             ), //Fin ListTile niño
