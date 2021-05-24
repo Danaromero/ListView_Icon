@@ -12,7 +12,8 @@ class DanaApp extends StatelessWidget {
       home: Scaffold(
         appBar: AppBar(
           centerTitle: true,
-          title: Text(title),
+          title: Text(title, style: TextStyle(
+          color: Colors.black),
           backgroundColor: Colors.pink[100],
         ),
         body: Center(
